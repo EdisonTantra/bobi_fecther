@@ -1,6 +1,10 @@
 {
 	"comment": "",
 	"ignore": "test",
+	"heroku": {
+        	"install" : [ "./..." ],
+        	"goVersion": "go1.9"
+         },
 	"package": [
 		{
 			"checksumSHA1": "a4Quq5NWJ0ZrmuqBTqOWGoPhBRM=",
@@ -349,7 +353,7 @@
 		},
 		{
 			"checksumSHA1": "YPYIq+6lqbLYgO97pFxIz6VncBk=",
-			"origin": "github.com/kataras/iris/sessions/vendor/github.com/satori/go.uuid",
+			"origin": "github.com/kataras/iris/vendor/github.com/satori/go.uuid",
 			"path": "github.com/satori/go.uuid",
 			"revision": "204f8474687bad1178d5108b501c6f0c7d927b9a",
 			"revisionTime": "2017-09-24T11:32:16Z"
